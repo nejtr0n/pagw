@@ -29,4 +29,6 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: nejtr0n/pagw:latest
+          tags: |
+            ghcr.io/nejtr0n/pagw:latest
+            ghcr.io/nejtr0n/pagw:1.27.2-alpine3.20
